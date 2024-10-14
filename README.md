@@ -1,3 +1,4 @@
+**Wanderlust: Explore & Review Unique Stays**
 WanderLust is a comprehensive web application that allows users to discover, manage, and review travel accommodations. 
 Designed with a focus on user experience, this application provides a seamless interface for travelers to browse listings, 
 submit reviews, and manage their accounts. 
