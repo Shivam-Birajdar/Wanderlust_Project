@@ -1,59 +1,57 @@
-**Wanderlust: Explore & Review Unique Stays**
-WanderLust is a comprehensive web application that allows users to discover, manage, and review travel accommodations. 
-Designed with a focus on user experience, this application provides a seamless interface for travelers to browse listings, 
-submit reviews, and manage their accounts. 
-Leveraging modern web technologies, WanderLust ensures fast performance and responsiveness across devices.
+# WanderLust
 
-**Features**
-User Authentication:
+**WanderLust** is a comprehensive web application that allows users to discover, manage, and review travel accommodations. Designed with a focus on user experience, this application provides a seamless interface for travelers to browse listings, submit reviews, and manage their accounts. Leveraging modern web technologies, WanderLust ensures fast performance and responsiveness across devices.
 
-Secure user registration and login functionality powered by Passport.js.
-Supports user session management, ensuring that users remain logged in across sessions.
-Dynamic Listings:
+## Features
 
-Users can browse various travel listings that include detailed information such as descriptions, pricing, availability, and images.
-Listings can be filtered and searched based on user preferences, making it easy to find suitable accommodations.
-Review System:
+- **User Authentication**: 
+  - Secure user registration and login functionality powered by Passport.js.
+  - Supports user session management, ensuring that users remain logged in across sessions.
 
-Users can submit reviews for listings, providing feedback that helps other users make informed decisions.
-Reviews include a rating system and comments, enhancing community interaction and trust.
-Responsive Design:
+- **Dynamic Listings**: 
+  - Browse various travel listings with detailed information, including descriptions, pricing, availability, and images.
+  - Filter and search listings based on user preferences for easy navigation.
 
-Built using EJS for templating and Bootstrap for styling, ensuring the application looks great on all devices, from mobile to desktop.
-Session Management:
+- **Review System**: 
+  - Submit reviews for listings, providing valuable feedback to other users.
+  - Ratings and comments enhance community interaction and trust.
 
-Utilizes connect-mongo for session storage, allowing for persistent user sessions.
-Session cookies are configured for enhanced security, including HTTP-only flags to protect against cross-site scripting attacks.
-Flash Messages:
+- **Responsive Design**: 
+  - Built using EJS and Bootstrap for a clean and responsive UI across devices.
 
-Integrates connect-flash to provide users with immediate feedback on actions such as successful logins, registrations, or error messages.
-Error Handling:
+- **Session Management**: 
+  - Utilizes `connect-mongo` for persistent session storage.
+  - Configured session cookies enhance security against XSS attacks.
 
-Includes custom error handling middleware to gracefully manage and display errors throughout the application.
-RESTful API Design:
+- **Flash Messages**: 
+  - Provides immediate feedback on user actions through flash messages for successes and errors.
 
-Implements a RESTful API structure for managing listings and reviews, promoting clean and organized code.
-Tech Stack
-Backend:
+- **Error Handling**: 
+  - Custom error handling middleware for graceful error management.
 
-Node.js: Server-side JavaScript runtime environment.
-Express.js: Web framework for Node.js, simplifying routing and middleware management.
-Mongoose: ODM (Object Data Modeling) library for MongoDB, providing a schema-based solution to model application data.
-Database:
+- **RESTful API Design**: 
+  - Implements a RESTful structure for managing listings and reviews.
 
-MongoDB: NoSQL database for storing user information, listings, and reviews.
-Frontend:
+## Tech Stack
 
-EJS (Embedded JavaScript): Templating engine for rendering HTML views.
-Bootstrap: CSS framework for responsive design and styling.
-HTML/CSS: Core technologies for structuring and styling web pages.
-Authentication:
+- **Backend**:
+  - **Node.js**: Server-side JavaScript runtime.
+  - **Express.js**: Web framework for routing and middleware.
+  - **Mongoose**: ODM library for MongoDB.
 
-Passport.js: Middleware for authentication, supporting various strategies (local in this case).
-Session Management:
+- **Database**:
+  - **MongoDB**: NoSQL database for user and listing data.
 
-express-session: Middleware for session handling.
-connect-mongo: MongoDB session store for express-session.
-Environment Management:
+- **Frontend**:
+  - **EJS (Embedded JavaScript)**: Templating engine for rendering views.
+  - **Bootstrap**: CSS framework for responsive design.
 
-dotenv: Module to load environment variables from a .env file.
+- **Authentication**:
+  - **Passport.js**: Middleware for user authentication.
+
+- **Session Management**:
+  - **express-session**: Middleware for session handling.
+  - **connect-mongo**: MongoDB session store.
+
+- **Environment Management**:
+  - **dotenv**: Module for loading environment variables.
