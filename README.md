@@ -1,6 +1,7 @@
 # WanderLust
 
-**WanderLust** is a comprehensive web application that allows users to discover, manage, and review travel accommodations. [View Live Project](https://wanderlust-project-l6gm.onrender.com).
+**WanderLust** is a comprehensive web application that allows users to discover, manage, and review travel accommodations.  
+**Live Project**: [View Live Project](https://wanderlust-project-l6gm.onrender.com)
 
 ## Features
 
